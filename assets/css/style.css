@@ -4,16 +4,23 @@ body {
 }  
 
 .profpic {
-    width:175px;
-    height:150px;
+    width:250px;
+    height:175px;
 }
 
 h1 {
-  font-size:24px;
+  text-align:center;
+  font-size:28px;
+  font-family: 'Encode Sans', sans-serif;
 }
 
 p {
-  font-size:14px;
+  margin-left:20px;
+  text-align:left;
+  font-size:20px;
+  font-style:italic;
+  font-family: 'Inconsolata', monospace;
+
 }
 
 .footer {
@@ -60,4 +67,37 @@ p {
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+#about-me-section {
+  background-color:white;
+  margin:3px;
+}
+
+#connect-section {
+  background-color:white;
+  margin:3px;
+}
+
+#about-par {
+  margin-left:10px;
+}
+
+#contact-form {
+  background-color:white;
+}
+
+.sbImg {
+  margin:2px;
+  padding:2px;
+}
+
+#portfolio-section{
+  margin:3px;
+  background-color:white;
+}
+
+a {
+  text-decoration:none;
 }
