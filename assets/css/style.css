@@ -19,7 +19,7 @@ p {
   text-align:left;
   font-size:20px;
   font-style:italic;
-  font-family: 'Inconsolata', monospace;
+  /*font-family: 'Inconsolata', monospace;*/
 
 }
 
@@ -100,4 +100,9 @@ p {
 
 a {
   text-decoration:none;
+}
+
+#nav-buttons {
+  margin-left:25px;
+  color:red;
 }
