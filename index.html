@@ -3,12 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Basic-Portfolio</title>
+  <title>Vincent Pasquarelli</title>
  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
   <link rel="stylesheet" href="assets/css/style.css">
 
   <link href="https://fonts.googleapis.com/css?family=Encode+Sans|Inconsolata" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 
 </head>
 
@@ -22,9 +24,9 @@
       <a class="navbar-brand" href="#">Vincent Pasquarelli</a>
     </div>
     <ul class="nav navbar-nav navlist" id = "nav-buttons">
-      <li><a href="https://vpasquar.github.io/portfolio">About</a></li>
-      <li><a href="https://vpasquar.github.io/portfolio/portfolio.html">Portfolio</a></li>
-      <li><a href="https://vpasquar.github.io/portfolio/contact.html">Contact</a></li>
+      <li><a href="#about-me-section">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#connect">Contact</a></li>
     </ul>
   </div>
 </nav>
@@ -32,46 +34,107 @@
 <div class="container">
 
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-8 head section" id="about-me-section">
+        <div class="col-xs-12 col-sm-12 col-md-12 head section" id="about-me-section">
              <h1>  About Me <h1>
 
 
         <div class="row content" >
              <br>
-             <div class="col-md-4">
+          <!--   <div class="col-md-4"> -->
                 <img class="img-thumbnail profpic" src="assets/images/prof.png">
-             </div>
-             <div class="col-md-4" id="about-para">
+          <!--   </div>            -->
+             <div>
 
-               <p>
-               My name is Vincent Pasquarelli, Vin for short, and I enjoy working in IT. I'm in the process of learning web development after starting my career in mainframe technology and its been an eventful journey so far. I enjoy programming and the problem solving that comes a long with the craft. Feel free to browse my portfolio to see some of the work I have completed. Cheers!
+               <p id="about-para">
+               My name is Vincent Pasquarelli, Vin for short, and I enjoy working in IT. After college, I took a job with United Healthcare, working on IBM mainframe technology to facilitate healthcare claims processing. As an Applications developer there, I found joy in programming but unfortunatly mainframe tech is a dying art. To modernize my skillset, I have pivoted to Web Development and am currently in a full-stack course at Rutger's University.  Feel free to browse my portfolio to see some of the work I have completed. Cheers!
                </p>
 
              </div>
         </div>
 
         </div>
-        
+     
+    </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-3 section" id = "connect-section">
-            <h1> Connect with Me <h1>
+    <br> <br> <br>
+
+    <div class = "row" id = "connect">
+        <div class="col-xs-12 col-sm-12 col-md-8 section" id = "connect-section">
+            <h1> Contact <h1>
            <section>
+              <a href = "tel:9083038182">
+                <span class = "glyphicon glyphicon-earphone">
+              </a>
+             
              <a href="https://github.com/vpasquar">
-             <img class="sbImg" src="assets/images/github.png" width="45" height="45"></a>
+               <img class="sbImg" src="assets/images/github.png" width="45" height="45"></a>
 
              <a href="https://www.linkedin.com/in/vincent-pasquarelli-156439110/"> 
-                <img class="sbImg" src="assets/images/linkedin.png" width="45" height="45"></a>
+              <img class="sbImg" src="assets/images/linkedin.png" width="45" height="45"></a>
 
              <a href="https://stackexchange.com/users/11307412/vincent-pasquarelli">
-                <img class="sbImg" src="assets/images/stack.png" width="45" height="45"></a>
+              <img class="sbImg" src="assets/images/stack.png" width="45" height="45"></a>
+
+               <a href = "mailto:vrp908@gmail.com">
+                <span class = "glyphicon glyphicon-envelope">
+              </a>
             </section>
         </div>
-     
+    </div> 
+
+    <br>
+    <br>
+    <br> 
+
+    <div class="row" id="portfolio">
+        <div class="col-xs-12 col-sm-12 col-md-12 head" id="portfolio-section">
+         
+        <section class="main-section">
+            <h1>Projects</h1>
+
+            <div class="work">
+             <a href="https://vpasquar.github.io/week-4-game">            
+              <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+             </a>
+              <h3>Crystals Collector!</h3>
+              <p id ="hov-text"> Simple Javascript Game using Jquery - match the computer generated number by clicking on differently valued crystals  </p>
+            </div>
+            <div class="work">
+             <a href="https://vpasquar.github.io/NYTsearch">
+              <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+             </a>
+              <h3>NYT Search Tool</h3>
+              <p id ="hov-text"> Search App that accesses NYT API to return articles based on user query. Layout uses bootstrap. </p>
+            </div>
+
+            <div class="work">
+             <a href="https://vpasquar.github.io/Hangman-Game">
+              <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+             </a>
+              <h3>JS Hangman Game!</h3>
+              <p id ="hov-text"> Javascript mockup of the classic Hangman Game, guess the president! Layout uses bootstrap.
+            </div>
+            
+            <div class="work">
+              <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+              <h3>Coming Soon!</h3>
+            </div>
+            <div class="work">
+              <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+              <h3>Coming Soon!</h3>
+            </div>
+
+        </section>
+
         </div>
+    </div>
+        
 
         <nav class="navbar navbar-default navbar-fixed-bottom footer">
             <div class="footerText navbar-header">
-               copyright
+               Vincent Pasquarelli
             </div>
         </nav>   
 </div>
