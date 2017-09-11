@@ -4,6 +4,7 @@ body {
 }  
 
 #about-me-section {
+  border-radius:12.5%;
   background-color:white;
   margin:3px;
   transition: all 1.5s;
@@ -37,7 +38,7 @@ h1 {
 }
 
 #about-para {
-
+  
   margin-left:20px;
   text-align:left;
   font-size:29px;
