@@ -6,12 +6,19 @@ body {
 #about-me-section {
   background-color:white;
   margin:3px;
-  transition: all 1s;
+  transition: all 1.5s;
+}
+
+#top-bar {
+  padding-bottom:1px;
+  background-color:black;
+  border-bottom: 3px solid #4aaaa5;
+  color:white;
 }
 
 #about-me-section:hover {
   background-color:#4aaaa5;
-  color:white;
+  color:black;
 }
 
 .profpic {
@@ -140,7 +147,7 @@ a {
 .footer {
   background-color:black;
   border-top: 4px solid #4aaaa5;
-  color:white;
+  color:grey;
 }
 
 .footerText {
