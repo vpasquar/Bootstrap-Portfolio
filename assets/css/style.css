@@ -48,10 +48,12 @@ h1 {
 
 }
 
-
 .work {
+  /*display:block;
+  margin:auto; */
   position: relative;
   float: left;
+  /*width:35%;*/
   width: 325px;
   margin: 20px 0px 25px 125px;
   overflow: none;
@@ -157,4 +159,20 @@ a {
 
 .footerText {
   margin-left:15%;
+}
+
+@media (max-width:640px) {
+   .work {
+  display:block;
+  margin:auto; 
+  margin-left:50px;
+  margin-bottom:25px;
+  position: relative;
+  float: left;
+  /*width:35%;*/
+  width: 75%;
+  overflow: none;
+}
+
+
 }
