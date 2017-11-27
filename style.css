@@ -49,7 +49,7 @@
 	margin:auto;
 	background-color:#F0F0F0;
 	box-shadow: -3px 2px 15px -2px rgba(18,5,18,1);
-	height:150px;
+	height:125px;
 	color:black;
 	font-family: 'Economica', sans-serif;
 }
@@ -59,8 +59,9 @@
 }
 
 .header #nav-bar {
-	position:relative;
-	left: 10%;
+	position:absolute;
+	top: 28px;
+	right:50px;
 }
 
 .header #nav-bar a {
@@ -183,14 +184,14 @@
 }
 
 .footer #footer-content a {
-  font-size:20px;
+  font-size:16px;
   text-decoration:none;
   color:black;
   font-style:bold;
 }
 .footer #footer-content a:hover {
   font-style:bold;
-  font-size:24px;
+  font-size:20px;
 }
 
 /*}*/
