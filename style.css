@@ -1,0 +1,263 @@
+/* Css rules for mobile and universal rules */
+
+.popup {
+	position:absolute;
+	background-image:url('./images/background7.jpg');
+	height:100%;
+	width:100%;	
+}
+
+.popup #pop-content {
+	position:relative;
+	top:20%;
+	left:10%;	
+}
+
+.popup #pop-content h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 28px;
+  width:225px;
+}
+
+.popup #pop-content #pop-nav a {
+  text-decoration:none;
+}
+
+.popup #pop-content #pop-nav a h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 22px;
+  color:black;
+}
+
+.popup #pop-content #pop-arrow {
+	        z-index:100;
+            position: relative;
+            display: block;
+            width: 0;
+            height: 0;
+            border-left: 9px solid transparent;
+            border-right: 9px solid transparent;
+            border-top: 18px solid black;
+}
+
+
+/* ################ END POP UP MODAL  */
+
+.header {	
+	width:98.5%;
+	top:0;
+	margin:auto;
+	background-color:#F0F0F0;
+	box-shadow: -3px 2px 15px -2px rgba(18,5,18,1);
+	height:150px;
+	color:black;
+	font-family: 'Economica', sans-serif;
+}
+
+.header h1 {
+	padding:15px;
+}
+
+.header #nav-bar {
+	position:relative;
+	left: 10%;
+}
+
+.header #nav-bar a {
+  font-size:20px;
+  text-decoration:none;
+  color:black;
+}
+.header #nav-bar a:hover {
+  font-size:24px;
+}
+
+
+/* ########  END HEADER    */
+
+
+
+.container {
+	width: 97%;
+    margin:auto;
+}
+
+/* ################# ABOUT ME */
+.about-container {
+	display:flex;
+	flex-direction:column;
+	height:400px;
+	margin:15px 6px;
+	box-shadow: -3px 2px 15px -2px rgba(18,5,18,1);
+	font-family: 'Scada', sans-serif;
+}
+
+.about-container div:nth-child(1) {
+	flex:1;
+	background-color:#D0D0D0;
+}
+
+.about-container div:nth-child(2){
+	flex:2;
+	background-color:#E0E0E0;
+	transition:.4s ease-in-out;
+	font-size:16px;
+}
+
+.about-container div:nth-child(2):hover {
+	flex:4;
+}
+
+
+.about-container #about-lead {
+	align-items:center;
+}
+.about-container #about-lead h2{
+	position:relative;
+	left:32%;
+	padding:10px;
+}
+
+.about-container #about-lead img{
+	position:relative;
+	left:28%;
+	height:1px;
+	width:1px;
+}
+
+.about-container #about-content {
+	padding:10px;
+	overflow:scroll;
+}
+
+/* ##### WORK */
+
+.work-container {
+	display:flex;
+	flex-direction:column;
+	height:300px;
+	box-shadow: -3px 2px 15px -2px rgba(18,5,18,1);
+	margin:15px 6px;
+}
+
+.work-container div:nth-child(1) {
+	flex:1;
+	background-color:#D0D0D0;
+	transition:.4s ease-in-out;
+}
+
+.work-container div:nth-child(2){
+	flex:2;
+	background-color:#E0E0E0;
+	transition:.4s ease-in-out;
+}
+
+.work-container div:nth-child(2):hover {
+	flex:4;
+}
+
+
+
+/* ############ END MAIN SECTION */
+
+.footer {
+	
+	width:98%;
+	margin:auto;
+	bottom:20px;
+	background-color:#F0F0F0;
+    box-shadow: -3px 2px 15px -2px rgba(18,5,18,1);
+	height:125px;
+    font-family: 'Economica', sans-serif;
+	color:black;
+}
+
+.footer h2 {
+	left:5%;
+	padding:15px;
+}	
+
+.footer #footer-content {
+	position:relative;
+	left: 10%;
+}
+
+.footer #footer-content a {
+  font-size:20px;
+  text-decoration:none;
+  color:black;
+  font-style:bold;
+}
+.footer #footer-content a:hover {
+  font-style:bold;
+  font-size:24px;
+}
+
+/*}*/
+/**/
+/*##########################################################################################################*/ 
+/*##########################################################################################################*/
+/**/
+
+@media only screen and (min-width: 960px) {
+ 
+	.popup #pop-content h1 {
+	  font-family: 'Rajdhani', sans-serif;
+	  font-size: 34px;
+	  width:75%;
+	}
+
+	.popup #pop-content #pop-nav a h2 {
+	  font-size: 26px;		
+	}
+
+	.popup #pop-content #pop-arrow {
+	            border-left: 11px solid transparent;
+	            border-right: 11px solid transparent;
+	            border-top: 20px solid black;
+	}
+
+	.header #nav-bar a {
+	  font-size:20px;
+	}
+
+	.header #nav-bar a:hover {
+	  font-size:24px;
+	}
+
+	.about-container {
+		flex-direction:row;
+	}
+
+	.about-container div:nth-child(2){
+		font-size:19px;
+	}
+
+
+	.about-container #about-lead img{
+		height:58%;
+		width:42%;
+	}
+
+    .about-container #about-content {
+		padding:8px;
+		overflow:auto;
+	}
+	/* ##### WORK */
+
+	.work-container {
+		flex-direction:row;
+		height:400px;				
+	}
+
+	.footer #footer-content a {
+	  font-size:20px;
+	}
+	.footer #footer-content a:hover {
+
+	  font-size:24px;
+	}
+
+}
+
+

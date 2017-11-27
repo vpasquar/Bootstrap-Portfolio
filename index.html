@@ -3,164 +3,109 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Vincent Pasquarelli</title>
- <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
-  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
-  <link rel="stylesheet" href="assets/css/style.css">
-
-  <link href="https://fonts.googleapis.com/css?family=Encode+Sans|Inconsolata" rel="stylesheet">
-
-  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <title> Vincent Pasquarelli</title>
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Economica|Rajdhani|Scada" rel="stylesheet">
 
 </head>
 
 <body>
 
+<div class = "popup">
+	<div id ="pop-content">
+		   <h1> Hello, Im Vin. I design and build full-stack web applications. </h1>	
+           <div id ='pop-nav'>
+              <a href="#">
+                  <h2> Learn more about my work. </h2>
+                  <div id ="pop-arrow"> </div>
+              </a>	
 
-
-<nav class="navbar navbar-default navbar-fixed-top" id="top-bar">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Vincent Pasquarelli</a>
+           </div>
     </div>
-    <ul class="nav navbar-nav navlist" id = "nav-buttons">
-      <li><a href="#about-me-section">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#connect">Contact</a></li>
-      <li><a href="https://docs.google.com/document/d/13epsKhRbXHySjpPgPRHTuVx81QnW87hnbUZFIMWvbFk/edit?usp=sharing"> Resume </a></li>
-    </ul>
-  </div>
-</nav>
+</div>	
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<div class = "header">	
+   <h1> Vincent Pasquarelli </h1>
 
-<div class="container">
-
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 head section" id="about-me-section">
-             <h1>  About Me <h1>
-
-
-        <div class="row content" >
-             <br>
-          <!--   <div class="col-md-4"> -->
-                <img class="img-thumbnail profpic" src="assets/images/prof.png">
-          <!--   </div>            -->
-             
-
-               <p id="about-para">
-               My name is Vincent Pasquarelli, Vin for short, and I enjoy working in IT. I graduated college with a degree in Economics, and shortly after I took a job with United Healthcare working on IBM mainframe technology. I took a risk getting into IT, but what I ended up finding was my passion. I was a back-end developer for one of the largest claims processing platforms in the country. During my time there I found joy in programming but unfortunately mainframe tech is a dying art. To modernize my skillset, I am pivoting to Web Development and am currently enrolled in Rutger's full-stack course.  Feel free to browse my portfolio to see some of the work I have completed. 
-               </p>
-
-             
-        </div>
-
-        </div>
-     
-    </div>
-
-    <br> <br> <br>
-
-    <div class = "row" id = "connect">
-        <div class="col-xs-12 col-sm-12 col-md-12 section" id = "connect-section">
-            <h1> Contact <h1>
-           <section>
-              <a href = "tel:9083038182">
-                <span class = "glyphicon glyphicon-earphone">
-              </a>
-             
-             <a href="https://github.com/vpasquar">
-               <img class="sbImg" src="assets/images/github.png" width="45" height="45"></a>
-
-             <a href="https://www.linkedin.com/in/vincent-pasquarelli-156439110/"> 
-              <img class="sbImg" src="assets/images/linkedin.png" width="45" height="45"></a>
-
-             <a href="https://stackexchange.com/users/11307412/vincent-pasquarelli">
-              <img class="sbImg" src="assets/images/stack.png" width="45" height="45"></a>
-
-               <a href = "mailto:vrp908@gmail.com">
-                <span class = "glyphicon glyphicon-envelope">
-              </a>
-            </section>
-        </div>
-    </div> 
-
-    <br>
-    <br>
-    <br> 
-
-   <div class="row" id="portfolio">
-        <div class="col-xs-12 col-sm-12 col-md-12 head" id="portfolio-section">
-         
-        <section class="main-section">
-            <h1>Sample Work</h1>
-            <br>
-            <br>
-            <div class="work">
-             <a href="https://vpasquar.github.io/week-4-game">            
-              <img src="assets/images/bubbleimg.jpg" alt="crystals">
-             
-              <h3>Crystals Collector!</h3>
-              </a>
-              <p id ="hov-text"> Simple Javascript Game using Jquery - match the computer generated number by clicking on differently valued crystals. Watch out for Bob Ross!  </p>
-              
-            </div>
-            <div class="work">
-             <a href="https://vpasquar.github.io/NYTsearch">
-              <img src="assets/images/catimg.png" alt="nyt search">
-             
-              <h3>NYT Search Tool</h3>
-              </a>
-              <p id ="hov-text"> Search App that accesses NYT API to return articles based on user query. Layout uses bootstrap. </p>
-              
-            </div>
-
-            <div class="work">
-             <a href="https://vpasquar.github.io/Hangman-Game">
-              <img src="assets/images/technics-q-c-640-480-5.jpg" alt="hangman">
-             
-              <h3>JS Hangman Game!</h3>
-              </a>
-              <p id ="hov-text"> Javascript mockup of the classic Hangman Game, guess the sports team. Layout uses bootstrap.
-              </p>
-            </div>
-            
-            <div class="work">
-             <a href = "https://vpasquar.github.io/TrainScheduler">
-              <img src="assets/images/railroadimg.jpg" alt="train scheduler">
-              <h3>Train Scheduler</h3>
-              </a>
-              <p id = "hov-text"> UX of simple train scheduler that records time and arrival. Firebase is used for data persistence and moment.js is used to manipulate time.
-              </p> 
-            </div>
-            <div class="work">
-              <a href = "https://vpasquar.github.io/BeerUp">
-              <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-              <h3>Beer Up!</h3>
-              </a>
-              <p id = "hov-text"> Informative Beer App powered by Untappd to explain to user different beer types and displays most popular beers based on Untappd's backend database. Uses Vanilla Javascript and connects with Untappd and Google Maps API. 
-            </div>
-
-        </section>
-
-        </div>
-    </div>
-
-        
-
-        <nav class="navbar navbar-default navbar-fixed-bottom footer">
-            <div class="footerText navbar-header">
-               Vincent Pasquarelli
-            </div>
-        </nav>   
+   <div id ="nav-bar">
+   	 <a href="#1"> about </a> |
+   	 <a href="#2"> work  </a> |
+   	 <a href="#3">  info  </a>
+   </div>
 </div>
-</body>
 
+<div class = "container">
+	<div class = "about-container" id="1">
+		<div id="about-lead"> 
+		   <h2> About Vin </h2>
+		   <img src ="./images/profpic1.jpg"> 
+		</div>
+		<div id="about-content"> 
+			<ul>
+			  <li> College graduate who studied economics at the University of Scranton - my original passion is data and analytics </li>
+			  <li> Experienced software developer who started out in mainframe technology writing code for a large healthcare company. This experience led me to pursue a career in Software-Dev - mainly on the web </li>
+			  <li> MERN Stack </li>
+			  <li> Comfortable creating front-end mockups with css libraries or dry css but prefer the creative freedom the latter allows. </li>
+			  <li> Comfortable using Javascript and libraries such as jQuery to manipulate the DOM and fluent in its object oriented aspects. </li>
+			  <li> Experience creating server side applications using Node.js and building RESTful Api's using Express </li>
+			  <li> Experience using relational (mysql) and non-relational (mongo) database systems </li>
+			  <li> Experience with React </li>
+            </ul>
+		</div>
+	</div>
+	
+	<div class = "work-container" id="2">
+		<div> title </div>
+		<div> about </div>
+	</div>
+
+	<div class = "work-container">
+		<div> title </div>
+		<div> about </div>
+	</div>
+
+	<div class = "work-container">
+		<div> title </div>
+		<div> about </div>
+	</div>
+
+	<div class = "work-container">
+		<div> title </div>
+		<div> about </div>
+	</div>
+
+<!-- 	<div class = "contact-container" id ="3">
+            <div id ="contact-header">
+            	<h3> feel free to reach out to me via the links below ... i am currently available for full time work </h2>
+            </div>
+            <div id ="contact-content">
+             	 <a href="#needaworkinglink"> resume </a>
+			   	 <a href="https://github.com/vpasquar"> github  </a>
+			   	 <a href="https://www.linkedin.com/in/vincent-pasquarelli/"> linkedin </a>
+			   	 <a href="tel:9083038182"> phone </a>
+			   	 <a href="mailto:vrp908@gmail.com"> mail </a>
+            </div>
+	</div> -->
+</div>
+
+<div class = "footer" id="3">
+     <div id ="footer-header">	
+       <h2> Thanks for visiting... feel free to reach out to me below </h2>
+     </div>
+
+     <div id ="footer-content">
+             	 <a href="#needaworkinglink"> resume </a> |
+			   	 <a href="https://github.com/vpasquar"> github  </a> |
+			   	 <a href="https://www.linkedin.com/in/vincent-pasquarelli/"> linkedin </a> |
+			   	 <a href="tel:9083038182"> phone </a> |
+			   	 <a href="mailto:vrp908@gmail.com"> mail </a>
+     </div>
+</div>	
+
+
+
+<script type="text/javascript" src="script.js"> </script>
+</body>
 </html>
