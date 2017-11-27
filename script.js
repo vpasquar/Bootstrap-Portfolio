@@ -8,9 +8,9 @@ $(document).ready(function() {
         
         e.preventDefault();
            $('.popup').slideUp(900);
-           $('.header').slideDown(900);
-		   $('.container').slideDown(900);
-		   $('.footer').slideDown(900);
+           $('.header').show(900);
+		   $('.container').show(900);
+		   $('.footer').show(900);
     })
 
 });
