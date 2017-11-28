@@ -124,7 +124,7 @@ html {
 
 .about-container #about-lead img{
 	position:relative;
-	left:30%;
+	left:31%;
 	/*margin-left:auto;
 	margin-right:auto;
 */	height:1px;
@@ -271,6 +271,9 @@ html {
 
 
 	.about-container #about-lead img{
+		padding:1px;
+        border:1px solid #021a40;
+        background-color:black;
 		height:58%;
 		width:38%;
 	}
@@ -283,7 +286,7 @@ html {
 
 	.work-container {
 		flex-direction:row;
-		height:400px;				
+		height:375px;				
 	}
 
 	.work-container div:nth-child(2) {
