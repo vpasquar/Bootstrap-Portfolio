@@ -11,6 +11,7 @@ html {
 	background-size:100% 100%;
 	height:100%;
 	width:100%;	
+	z-index:2;
 }
 
 .popup #pop-content {
@@ -118,7 +119,8 @@ html {
 .about-container #about-lead h2{
 	padding-bottom:5px;
 	text-align:center;
-	border-bottom:2px solid black;
+	border-bottom:1.5px solid black;
+
 
 }
 
@@ -272,7 +274,7 @@ html {
 
 	.about-container #about-lead img{
 		padding:1px;
-        border:1px solid #021a40;
+        border:0.75px solid #021a40;
         background-color:black;
 		height:58%;
 		width:38%;
@@ -299,6 +301,7 @@ html {
 	   flex:4;
 	   font-size:20px;
     }
+   
     .work-container .work-header #work-bar {
        position:relative;
        margin-left:20%;	  

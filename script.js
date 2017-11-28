@@ -8,15 +8,15 @@ $(document).ready(function() {
         
         e.preventDefault();
            $('.popup').slideUp(900);
-           $('.header').show(700);
-		   $('.container').show(700);
-		   $('.footer').show(700);
+           $('.header').show(000);
+		   $('.container').show(000);
+		   $('.footer').show(000);
     })
 
-$.each( $('*'), function() { 
-    if( $(this).width() > $('body').width()) {
-        console.log("Wide Element: ", $(this), "Width: ", $(this).width()); 
-    } 
-});
+	$.each( $('*'), function() { 
+	    if( $(this).width() > $('body').width()) {
+	        console.log("Wide Element: ", $(this), "Width: ", $(this).width()); 
+	    } 
+	});
 
 });
