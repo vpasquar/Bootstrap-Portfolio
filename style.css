@@ -66,7 +66,7 @@ html {
 
 .header #nav-bar {
 	position:absolute;
-	top: 28px;
+	top: 80px;
 	right:50px;
 }
 
@@ -236,10 +236,15 @@ html {
 	}
 
 	.popup #pop-content #pop-arrow {
-	            border-left: 11px solid transparent;
-	            border-right: 11px solid transparent;
-	            border-top: 20px solid black;
+        border-left: 11px solid transparent;
+        border-right: 11px solid transparent;
+        border-top: 20px solid black;
 	}
+    .header #nav-bar {
+		position:absolute;
+		top: 28px;
+		right:50px;
+    }
 
 	.header #nav-bar a {
 	  font-size:20px;
