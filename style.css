@@ -106,6 +106,7 @@ html {
 .about-container div:nth-child(2){
 	flex:3;
 	background-color:#E0E0E0;
+
 	transition:.4s ease-in-out;
 	font-size:16px;
 }
@@ -273,12 +274,15 @@ html {
 
 
 	.about-container #about-lead img{
-		padding:1px;
-        border:0.75px solid #021a40;
+		padding:1.5px;
+        border:1px solid #021a40;
         background-color:black;
+        border-radius:20%;
 		height:58%;
 		width:38%;
+		transition:.4s ease-in-out;
 	}
+
 
     .about-container #about-content {
 		padding:8px;
