@@ -50,6 +50,8 @@ html {
 
 /* ################ END POP UP MODAL  */
 
+
+
 .header {	
 	width:98%;
 	top:0;
@@ -86,6 +88,7 @@ html {
 .container {
 	width: 97%;
     margin:auto;
+    font-family: 'Scada', sans-serif;
 }
 
 /* ################# ABOUT ME */
@@ -140,6 +143,10 @@ html {
     overflow-x: hidden;
 }
 
+
+#seperator h2 {
+	text-align:center;
+}
 /* ##### WORK */
 
 .work-container {
