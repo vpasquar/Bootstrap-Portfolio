@@ -59,8 +59,10 @@ html {
 	background-color:#F0F0F0;
 	box-shadow: -3px 2px 15px -2px rgba(18,5,18,1);
 	height:90px;
-	color:black;
-	font-family: 'Economica', sans-serif;
+	color:#002c45;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight:700;
+	font-style:italic;
 }
 
 .header h1 {
@@ -76,7 +78,9 @@ html {
 .header #nav-bar a {
   font-size:20px;
   text-decoration:none;
-  color:black;
+  color:#002c45;
+  font-weight:400;
+  font-style:italic;
 }
 
 
@@ -98,18 +102,22 @@ html {
 	height:475px;
 	margin:15px 6px;
 	box-shadow: -3px 2px 15px -2px rgba(18,5,18,1);
-	font-family: 'Scada', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight:300;
 }
 
 .about-container div:nth-child(1) {
 	flex:1;
-	background-color:#D0D0D0;
+	background-color:#F0F0F0;
+	color:#002c45;
 }
 
 .about-container div:nth-child(2){
 	flex:3;
-	background-color:#E0E0E0;
-
+	/*background-color:#E0E0E0;*/
+    background-color:#002c45;
+   /* opacity:25%;
+*/    color:white;
 	transition:.4s ease-in-out;
 	font-size:17px;
 }
@@ -123,7 +131,7 @@ html {
 .about-container #about-lead h2{
 	padding-bottom:5px;
 	text-align:center;
-	border-bottom:1.5px solid black;
+	border-bottom:1.5px solid #002c45;
 
 
 }
@@ -143,9 +151,19 @@ html {
     overflow-x: hidden;
 }
 
-
+#seperator {
+	margin-top:40px;
+	margin-bottom:40px;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight:700;
+	font-size:25px;
+	/*font-style:italic;*/
+}
 #seperator h2 {
+	/*margin-top:10px;
+	margin-bottom:10px;*/
 	text-align:center;
+	color:#002c45;
 }
 /* ##### WORK */
 
@@ -155,18 +173,22 @@ html {
 	height:475px;
 	box-shadow: -3px 2px 15px -2px rgba(18,5,18,1);
 	margin:15px 6px;
-	font-family: 'Scada', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight:300;
 }
 
 .work-container div:nth-child(1) {
 	flex:1;
-	background-color:#D0D0D0;
+	background-color:#F0F0F0;
+	color:#002c45;
 	transition:.4s ease-in-out;
 }
 
 .work-container div:nth-child(2){
 	flex:3;
-	background-color:#E0E0E0;
+	/*background-color:#E0E0E0;*/
+	background-color:#002c45;
+    color:white;
 	transition:.4s ease-in-out;
 	font-size:17px;
 }
@@ -186,7 +208,9 @@ html {
 .work-container .work-header #work-bar a {
 	font-size:20px;
 	text-decoration:none;
-	color:black;
+	color:#002c45;
+	font-weight:400;
+	font-style:italic;
 }
 
 .work-container .work-content {
@@ -208,8 +232,10 @@ html {
 	background-color:#F0F0F0;
     box-shadow: -3px 2px 15px -2px rgba(18,5,18,1);
 	height:125px;
-    font-family: 'Economica', sans-serif;
-	color:black;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight:400;
+    font-style:italic;
+	color:#002c45;
 }
 
 .footer h2 {
@@ -225,7 +251,7 @@ html {
 .footer #footer-content a {
   font-size:18px;
   text-decoration:none;
-  color:black;
+  color:#002c45;
   font-style:bold;
 }
 
@@ -284,8 +310,8 @@ html {
 
 	.about-container #about-lead img{
 		padding:1.5px;
-        border:1px solid #021a40;
-        background-color:black;
+        border:1px solid #002c45;
+        background-color:#002c45;
         border-radius:20%;
 		height:58%;
 		width:38%;
@@ -299,6 +325,9 @@ html {
 	}
 	/* ##### WORK */
 
+    #seperator {
+    	font-size:30px;
+    }
 	.work-container {
 		flex-direction:row;
 		height:auto;				
