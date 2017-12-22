@@ -15,6 +15,7 @@ html {
 }
 
 .popup #pop-content {
+	/*text-align:center;*/
 	position:relative;
 	top:20%;
 	left:10%;	
@@ -42,6 +43,7 @@ html {
             display: block;
             width: 0;
             height: 0;
+            /*left:50%;*/
             border-left: 9px solid transparent;
             border-right: 9px solid transparent;
             border-top: 18px solid black;
@@ -170,7 +172,7 @@ html {
 .work-container {
 	display:flex;
 	flex-direction:column;
-	height:475px;
+	height:auto;
 	box-shadow: -3px 2px 15px -2px rgba(18,5,18,1);
 	margin:15px 6px;
 	font-family: 'Alegreya Sans', sans-serif;
